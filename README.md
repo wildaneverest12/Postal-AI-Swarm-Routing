@@ -1,33 +1,70 @@
-# Postal-AI-Swarm-Routing
-A Multi-Agent AI system for autonomous postal reverse logistics and carbon-optimized fleet orchestration. Built for the UPU Innovation Challenge 2026.
-# 🤖 Agentic-Smart-Fleet-Orchestrator
-**Powering Postal Reverse Logistics with Multi-Agent AI** *A conceptual Proof of Concept (PoC) developed for the UPU Innovation Challenge 2026.*
+# Getting Started with Create React App
 
-## 📌 The Vision
-As national postal operators transition towards facilitating the Circular Economy, Reverse Logistics (particularly for E-Waste) introduces immense logistical and financial complexities. This project introduces an **Agentic AI architecture** to autonomously orchestrate postal fleets, optimize carbon emissions, and streamline E-Waste collection.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Instead of traditional rule-based routing, this system utilizes a **Multi-Agent System (MAS)** where autonomous AI agents negotiate, decide, and execute logistics tasks in real-time.
+## Available Scripts
 
-## 🏗️ Agentic Architecture
-Our PoC relies on three specialized AI Agents collaborating seamlessly:
+In the project directory, you can run:
 
-1. **🧑‍💻 Customer Request Agent:** Autonomously parses user requests for E-Waste pickup, identifies the electronic device category, and estimates the residual value and carbon footprint.
-2. **🚚 Fleet Dispatch Agent:** Monitors the real-time location of the postal fleet. It identifies delivery trucks returning empty (deadhead miles) and dynamically reroutes them to pick up E-Waste along their path.
-3. **🌍 MRV (Carbon) Agent:** Calculates the net avoided GHG emissions from the optimized route and automatically logs the data for Mitigation Action Facility reporting.
+### `npm start`
 
-## ☁️ AWS Integration Concept
-To ensure scalability and security, the architecture leverages the following AWS services:
-- **Amazon Bedrock:** Powers the foundational LLMs underlying the Multi-Agent negotiation.
-- **AWS Lambda:** Executes agent decisions serverlessly.
-- **Amazon Location Service:** Provides real-time routing, tracking, and geofencing for the postal fleet.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🚀 Proof of Concept (PoC) Code
-This repository includes a conceptual Python PoC (`main.py`) demonstrating how these agents interact using an Agentic AI framework. 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### How to Run (Simulation)
-```bash
-# Clone the repository
-git clone [https://github.com/your-username/Agentic-Smart-Fleet-Orchestrator.git](https://github.com/your-username/Agentic-Smart-Fleet-Orchestrator.git)
+### `npm test`
 
-# Run the conceptual agent simulation
-python main.py
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
